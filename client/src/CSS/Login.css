@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    background-image: url('https://images.unsplash.com/photo-1516518775041-2d8e9f6c4c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHN0b2NrJTIwbWFya2V0fGVufDB8fHx8MTY0MTg0NzM2NQ&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover; 
+    background-position: center; 
+}
+.login-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Set a max width */
+    margin: 100px auto; /* Center the form */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.login-form:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.login-form h2 {
+    margin-bottom: 20px; /* Space between heading and form */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.btn-primary {
+    width: 100%; /* Full width button */
+}

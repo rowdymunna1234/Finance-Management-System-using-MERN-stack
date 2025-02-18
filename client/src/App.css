@@ -1,0 +1,26 @@
+.navbar-nav .nav-link {
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change to your desired hover color */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-image: url('https://example.com/background-image.jpg'); /* Replace with your background image URL */
+    background-size: cover; 
+    background-position: center; 
+}
+
+.stock-market-info {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.text-center {
+    color: #043468;
+}
